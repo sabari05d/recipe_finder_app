@@ -1,0 +1,36 @@
+.landing-font {
+    font-family: var(--landing-font);
+    letter-spacing: 0.5px;
+}
+
+
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+:root {
+    --landing-font: "Protest Guerrilla", sans-serif;
+}
+
+
+
+.landing-card-img {
+    height: 200px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.modal-card-img {
+    max-height: auto;
+    height: 400px;
+    width: 95%;
+    background-size: cover;
+}
+
+.bg-gradient-1 {
+    background-image: linear-gradient(145deg , #4facfe 0%, #00f2fe 100%);
+}
+
+.search-btn:hover{
+    color: #fff !important;
+}
